@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="myAppPortfolioStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_gravity">"center"</item>
+        <item name="android:layout_width">"200dp"</item>
+        <item name="android:layout_height">"50dp"</item>
+        <item name="android:background">"#B2EBF2"</item>
+        <item name="android:textColor">"#1B5E20"</item>
+        <item name="android:textSize">"20sp"</item>
+        <item name="android:layout_marginBottom">"5dp"</item>
+    </style>
+</resources>

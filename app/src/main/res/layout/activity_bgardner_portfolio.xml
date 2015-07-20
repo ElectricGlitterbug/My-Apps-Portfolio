@@ -1,0 +1,59 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:paddingBottom="40dp"
+            android:textSize="32sp"
+            android:textColor="#4A148C"
+            android:text="My Apps Portfolio"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal" />
+            <Button
+                android:id="@+id/SpotifyButton"
+                style="@style/myAppPortfolioStyle"
+                android:text="Spotify Streamer"
+                android:onClick="goToAppOnClick"
+                />
+
+            <Button
+                android:id="@+id/ScoresButton"
+                android:layout_gravity="center"
+                style="@style/myAppPortfolioStyle"
+                android:text="Scores App"
+                />
+            <Button
+                android:id="@+id/LibraryButton"
+                style="@style/myAppPortfolioStyle"
+                android:text="Library App"
+                />
+            <Button
+                android:id="@+id/BuildBiggerButton"
+                style="@style/myAppPortfolioStyle"
+                android:text="Build it Bigger"
+                />
+            <Button
+                android:id="@+id/ReaderButton"
+                style="@style/myAppPortfolioStyle"
+                android:text="XYZ Reader"
+                />
+            <Button
+                android:id="@+id/RoyalButton"
+                style="@style/myAppPortfolioStyle"
+                android:text="Royal Banquet"
+                android:onClick="sendMessage"
+                />
+    </LinearLayout>
